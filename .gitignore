@@ -1,0 +1,10 @@
+echo "node_modules/
+.env
+__pycache__/
+venv/
+.venv/
+*.pyc
+.DS_Store" > .gitignore
+git add .gitignore
+git commit -m "add gitignore"
+git push
